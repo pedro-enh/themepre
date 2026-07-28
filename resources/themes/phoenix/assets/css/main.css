@@ -1,0 +1,15 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --bg-base: #0a0a0f;
+  --bg-card: #12121a;
+  --border-color: #1e1e2e;
+  --accent-cyan: #00d4ff;
+  --success-emerald: #10b981;
+  --danger-rose: #f43f5e;
+  --warning-amber: #f59e0b;
+}
+body { background-color: var(--bg-base); color: #fff; font-family: 'Inter', sans-serif; }
+.card { background-color: var(--bg-card); border: 1px solid var(--border-color); border-radius: 12px; }
